@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>hello world</h1>
-    <article>
-      <p>lorem ipsum dolor sit amet</p>
-    </article>
+    <h1 id="title">hello world</h1>
+    <h2 id="subtitle">this is a subtitle</h2>
+
+    <script src="index.js">
+      document.getElementById("title").innerText =
+        "hello world, changed by javascript";
+    </script>
   </body>
 </html>
