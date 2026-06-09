@@ -3,7 +3,7 @@ h1 {
   background-color: #ffff;
   text-align: center;
 }
-#espaço{
+#espaço {
   border: solid blue 5px;
   border-radius: 30px;
   background-color: rgb(150, 238, 238);
@@ -12,18 +12,17 @@ h1 {
   padding-bottom: 30px;
   padding-top: 20px;
 }
-.central{
+.central {
   justify-content: center;
   display: flex;
-  padding-top: 50px;;
+  padding-top: 50px;
 }
-.central button{
+.central button {
   width: 100px;
   height: 50px;
   border-radius: 20px;
   background-color: blue;
 }
-input{
+input {
   width: 200px;
 }
-
